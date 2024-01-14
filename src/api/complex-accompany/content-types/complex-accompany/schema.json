@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "complex_accompanies",
+  "info": {
+    "singularName": "complex-accompany",
+    "pluralName": "complex-accompanies",
+    "displayName": "ComplexAccompany",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.footer"
+    },
+    "complexBlocks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.complex-component"
+    },
+    "banner": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

@@ -46,6 +46,16 @@
       "relation": "manyToOne",
       "target": "api::case-name.case-name",
       "inversedBy": "cases"
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "image-blocks.double-image",
+        "image-blocks.grid-image",
+        "image-blocks.one-image",
+        "image-blocks.text-block"
+      ],
+      "required": true
     }
   }
 }

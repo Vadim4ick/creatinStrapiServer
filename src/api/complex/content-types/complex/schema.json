@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "complexes",
+  "info": {
+    "singularName": "complex",
+    "pluralName": "complexes",
+    "displayName": "Complex",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "offer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.offer"
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "deadlines": {
+      "type": "string",
+      "required": true
+    },
+    "banner": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "includes_blocks": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::includes-block.includes-block"
+    },
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.footer"
+    },
+    "totalHours": {
+      "type": "integer"
+    }
+  }
+}

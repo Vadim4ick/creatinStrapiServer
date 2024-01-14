@@ -1,17 +1,17 @@
 {
-  "collectionName": "components_ui_links",
+  "collectionName": "components_elements_includes_contents",
   "info": {
-    "displayName": "link",
+    "displayName": "includesContent",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "href": {
+    "title": {
       "type": "string",
       "required": true
     },
-    "name": {
-      "type": "string",
+    "content": {
+      "type": "richtext",
       "required": true
     }
   }
