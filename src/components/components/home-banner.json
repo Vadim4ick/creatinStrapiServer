@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_components_home_banners",
+  "info": {
+    "displayName": "HomeBanner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "IntroCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.intro-card",
+      "max": 3
+    },
+    "banner": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "bannerMobile": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "bannerMasks": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

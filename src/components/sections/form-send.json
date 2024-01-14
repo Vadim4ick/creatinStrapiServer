@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_form_sends",
+  "info": {
+    "displayName": "FormSend",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "address": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "number": {
+      "type": "biginteger"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_elements_intro_cards",
+  "info": {
+    "displayName": "IntroCard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "info": {
+      "type": "string"
+    },
+    "class": {
+      "type": "enumeration",
+      "enum": [
+        "folders",
+        "spiral",
+        "__image--group",
+        "graph",
+        "trust",
+        "achievement"
+      ]
+    }
+  }
+}
