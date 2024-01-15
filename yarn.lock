@@ -4571,9 +4571,9 @@
     "graphql-language-service" "5.2.0"
 
 "codemirror@^5.65.11", "codemirror@^5.65.3":
-  "integrity" "sha512-br21LjYmSlVL0vFCPWPfhzUCT34FM/pAdK7rRIZwa0rrtrIdotvP4Oh4GUHsu2E3IrQMCfRkL/fN3ytMNxVQvg=="
-  "resolved" "https://registry.npmjs.org/codemirror/-/codemirror-5.65.16.tgz"
-  "version" "5.65.16"
+  "integrity" "sha512-Gp62g2eKSCHYt10axmGhKq3WoJSvVpvhXmowNq7pZdRVowwtvBR/hi2LSP5srtctKkRT33T6/n8Kv1UGp7JW4A=="
+  "resolved" "https://registry.npmjs.org/codemirror/-/codemirror-5.65.11.tgz"
+  "version" "5.65.11"
 
 "codemirror@^6.0.0":
   "integrity" "sha512-J8j+nZ+CdWmIeFIGXEFbFPtpiYacFMDR8GlHK3IyHQJMCaVRfGx9NT+Hxivv1ckLWPvNdZqndbr/7lVhrf/Svg=="
@@ -6352,7 +6352,7 @@
     "http-errors" "^1.8.1"
     "object-path" "^0.11.8"
 
-"graphql@^15.5.0 || ^16.0.0", "graphql@15.8.0":
+"graphql@*", "graphql@^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0", "graphql@^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", "graphql@^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0", "graphql@^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", "graphql@^14.2.1 || ^15.0.0 || ^16.0.0", "graphql@^15.0.0 || ^16.0.0", "graphql@^15.3.0 || ^16.0.0", "graphql@^15.5.0 || ^16.0.0", "graphql@^15.5.1", "graphql@0.13.1 - 16", "graphql@14.x || 15.x || 16.x", "graphql@15.x || 16.x":
   "integrity" "sha512-5gghUc24tP9HRznNpV2+FIoq3xKkj5dTQqf4v0CpdPbFVwFkWoxOM+o+2OC9ZSvjEMTjfmG9QT+gcvggTwW1zw=="
   "resolved" "https://registry.npmjs.org/graphql/-/graphql-15.8.0.tgz"
   "version" "15.8.0"
