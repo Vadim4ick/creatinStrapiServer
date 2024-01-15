@@ -10,11 +10,11 @@
     "strapi": "strapi"
   },
   "dependencies": {
+    "@strapi/plugin-graphql": "^4.17.0",
     "@strapi/plugin-i18n": "4.6.0",
     "@strapi/plugin-users-permissions": "4.6.0",
     "@strapi/provider-upload-cloudinary": "^4.17.0",
     "@strapi/strapi": "4.6.0",
-    "codemirror": "^6.0.1",
     "graphql": "^16.8.1",
     "pg": "8.6.0"
   },
