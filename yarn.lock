@@ -3657,17 +3657,7 @@
   dependencies:
     "apollo-server-types" "^3.8.0"
 
-"apollo-server-types@^3.6.2":
-  "integrity" "sha512-ZI/8rTE4ww8BHktsVpb91Sdq7Cb71rdSkXELSwdSR0eXu600/sY+1UXhTWdiJvk+Eq5ljqoHLwLbY2+Clq2b9A=="
-  "resolved" "https://registry.npmjs.org/apollo-server-types/-/apollo-server-types-3.8.0.tgz"
-  "version" "3.8.0"
-  dependencies:
-    "@apollo/utils.keyvaluecache" "^1.0.1"
-    "@apollo/utils.logger" "^1.0.0"
-    "apollo-reporting-protobuf" "^3.4.0"
-    "apollo-server-env" "^4.2.1"
-
-"apollo-server-types@^3.8.0":
+"apollo-server-types@^3.6.2", "apollo-server-types@^3.8.0":
   "integrity" "sha512-ZI/8rTE4ww8BHktsVpb91Sdq7Cb71rdSkXELSwdSR0eXu600/sY+1UXhTWdiJvk+Eq5ljqoHLwLbY2+Clq2b9A=="
   "resolved" "https://registry.npmjs.org/apollo-server-types/-/apollo-server-types-3.8.0.tgz"
   "version" "3.8.0"
@@ -6362,17 +6352,7 @@
     "http-errors" "^1.8.1"
     "object-path" "^0.11.8"
 
-"graphql@^15.0.0 || ^16.0.0":
-  "integrity" "sha512-5gghUc24tP9HRznNpV2+FIoq3xKkj5dTQqf4v0CpdPbFVwFkWoxOM+o+2OC9ZSvjEMTjfmG9QT+gcvggTwW1zw=="
-  "resolved" "https://registry.npmjs.org/graphql/-/graphql-15.8.0.tgz"
-  "version" "15.8.0"
-
-"graphql@^15.5.0 || ^16.0.0":
-  "integrity" "sha512-59LZHPdGZVh695Ud9lRzPBVTtlX9ZCV150Er2W43ro37wVof0ctenSaskPPjN7lVTIN8mSZt8PHUNKZuNQUuxw=="
-  "resolved" "https://registry.npmjs.org/graphql/-/graphql-16.8.1.tgz"
-  "version" "16.8.1"
-
-"graphql@15.8.0":
+"graphql@^15.5.0 || ^16.0.0", "graphql@15.8.0":
   "integrity" "sha512-5gghUc24tP9HRznNpV2+FIoq3xKkj5dTQqf4v0CpdPbFVwFkWoxOM+o+2OC9ZSvjEMTjfmG9QT+gcvggTwW1zw=="
   "resolved" "https://registry.npmjs.org/graphql/-/graphql-15.8.0.tgz"
   "version" "15.8.0"
