@@ -10,6 +10,7 @@
     "strapi": "strapi"
   },
   "dependencies": {
+    "@strapi/plugin-graphql": "^4.17.0",
     "@strapi/plugin-i18n": "4.6.0",
     "@strapi/plugin-users-permissions": "4.6.0",
     "@strapi/provider-upload-cloudinary": "^4.17.0",
@@ -18,6 +19,11 @@
   },
   "author": {
     "name": "A Strapi developer"
+  },
+  "resolutions": {
+    "@strapi/plugin-graphql": {
+      "graphql": "15.8.0"
+    }
   },
   "strapi": {
     "uuid": "bade7492-37c3-4cdf-9ea7-f121c2bdc889"
