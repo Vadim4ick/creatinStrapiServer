@@ -12,11 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "links": {
-      "type": "component",
-      "repeatable": true,
-      "component": "ui.link"
-    },
     "mobileLink": {
       "type": "component",
       "repeatable": true,
