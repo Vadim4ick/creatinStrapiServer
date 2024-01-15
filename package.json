@@ -29,10 +29,13 @@
     "node": ">=14.19.1 <=18.x.x",
     "npm": ">=6.0.0"
   },
-  "overrides": {
-    "@strapi/plugin-graphql": {
-      "graphql": "15.8.0"
-    }
+  "resolutions": {
+    "relay-compiler": "3.0.0",
+    "webpack/memory-fs": "0.4.1",
+    "@babel/core/json5": "2.1.0",
+    "@babel/core/@babel/generator": "7.3.4",
+    "@babel/core@npm": "7.0.0",
+    "@babel/generator": "7.3.4"
   },
   "license": "MIT"
 }
