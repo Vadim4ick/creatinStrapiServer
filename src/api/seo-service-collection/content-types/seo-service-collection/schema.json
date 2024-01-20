@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "seo_service_collections",
+  "info": {
+    "singularName": "seo-service-collection",
+    "pluralName": "seo-service-collections",
+    "displayName": "SEOServiceCollection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}
