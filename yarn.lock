@@ -2620,7 +2620,7 @@
     "@strapi/utils" "4.6.0"
     "fs-extra" "10.0.0"
 
-"@strapi/strapi@^4.0.0", "@strapi/strapi@^4.3.4", "@strapi/strapi@4.6.0":
+"@strapi/strapi@^4.0.0", "@strapi/strapi@^4.3.4", "@strapi/strapi@^4.4.0", "@strapi/strapi@4.6.0":
   "integrity" "sha512-RVHCwtdP5GVPcaNrUr5/Y863UjnKmKXDnnIiPr0GWPMZdwno4IZxIz1R4XgP8no9XpCbVJK1HsEmzrLcavAOMg=="
   "resolved" "https://registry.npmjs.org/@strapi/strapi/-/strapi-4.6.0.tgz"
   "version" "4.6.0"
@@ -10608,6 +10608,11 @@
   "integrity" "sha512-JPbdCEQLj1w5GilpiHAx3qJvFndqybBysA3qUOnznweH4QbNYUsW/ea8QzSrnh0vNsezMMw5bcVool8lM0gwzg=="
   "resolved" "https://registry.npmjs.org/std-env/-/std-env-3.7.0.tgz"
   "version" "3.7.0"
+
+"strapi-plugin-multi-select@^1.2.3":
+  "integrity" "sha512-l5y5N3Hi1RcfRAtmQcAIn5u81amAQ+azWKgLcdzI1i3Hm5AZRCcZbtNDXb4ETsZUw7jvktRrD7F5QYOwzc8fiw=="
+  "resolved" "https://registry.npmjs.org/strapi-plugin-multi-select/-/strapi-plugin-multi-select-1.2.3.tgz"
+  "version" "1.2.3"
 
 "stream-browserify@^3.0.0":
   "integrity" "sha512-H73RAHsVBapbim0tU2JwwOiXUj+fikfiaoYAKHF3VJfA0pe2BCzkhAHBlLG6REzE+2WNZcxOXjK7lkso+9euLA=="

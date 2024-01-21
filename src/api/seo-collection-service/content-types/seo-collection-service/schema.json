@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "seo_service_collections",
+  "collectionName": "seo_collection_services",
   "info": {
-    "singularName": "seo-service-collection",
-    "pluralName": "seo-service-collections",
-    "displayName": "SEOServiceCollection"
+    "singularName": "seo-collection-service",
+    "pluralName": "seo-collection-services",
+    "displayName": "SEOCollectionService"
   },
   "options": {
     "draftAndPublish": true

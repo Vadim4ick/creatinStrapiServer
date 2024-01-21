@@ -18,7 +18,8 @@
     "codemirror": "^5.65.11",
     "codemirror-graphql": "^2.0.10",
     "pg": "8.6.0",
-    "sharp": "^0.33.2"
+    "sharp": "^0.33.2",
+    "strapi-plugin-multi-select": "^1.2.3"
   },
   "author": {
     "name": "A Strapi developer"
