@@ -22,7 +22,8 @@
       "multiple": false,
       "required": false,
       "allowedTypes": [
-        "videos"
+        "videos",
+        "images"
       ]
     },
     "textBlocks": {

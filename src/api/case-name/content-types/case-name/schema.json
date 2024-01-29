@@ -17,15 +17,15 @@
       "required": true,
       "unique": true
     },
-    "cases": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::case.case",
-      "mappedBy": "case_name"
-    },
     "nameID": {
       "type": "uid",
       "targetField": "name"
+    },
+    "cases": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::case.case",
+      "mappedBy": "case_names"
     }
   }
 }
