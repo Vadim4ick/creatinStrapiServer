@@ -16,9 +16,6 @@
       "type": "component",
       "repeatable": true,
       "component": "ui.link"
-    },
-    "title": {
-      "type": "string"
     }
   }
 }

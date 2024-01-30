@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_image_blocks_double_text_blocks",
+  "info": {
+    "displayName": "doubleTextBlocks",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "oldTitle": {
+      "type": "richtext",
+      "required": true
+    },
+    "oldDescription": {
+      "type": "richtext",
+      "required": true
+    },
+    "oldLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "newTitle": {
+      "type": "richtext",
+      "required": true
+    },
+    "newDescription": {
+      "type": "richtext",
+      "required": true
+    },
+    "newLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "idBlock": {
+      "type": "text",
+      "required": true,
+      "default": "doubleTextBlocks"
+    }
+  }
+}
