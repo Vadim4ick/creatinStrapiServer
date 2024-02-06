@@ -6,10 +6,6 @@
   },
   "options": {},
   "attributes": {
-    "oldTitle": {
-      "type": "richtext",
-      "required": true
-    },
     "oldDescription": {
       "type": "richtext",
       "required": true
@@ -21,10 +17,6 @@
       "allowedTypes": [
         "images"
       ]
-    },
-    "newTitle": {
-      "type": "richtext",
-      "required": true
     },
     "newDescription": {
       "type": "richtext",
@@ -42,6 +34,14 @@
       "type": "text",
       "required": true,
       "default": "doubleTextBlocks"
+    },
+    "oldTitle": {
+      "type": "string",
+      "required": true
+    },
+    "newTitle": {
+      "type": "string",
+      "required": true
     }
   }
 }
