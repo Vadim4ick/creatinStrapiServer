@@ -29,9 +29,9 @@
       "type": "string"
     },
     "vacancies": {
-      "type": "component",
-      "repeatable": true,
-      "component": "elements.vacancy"
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::vacancy.vacancy"
     }
   }
 }
