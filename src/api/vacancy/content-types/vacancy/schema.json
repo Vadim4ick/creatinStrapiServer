@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vacancies",
+  "info": {
+    "singularName": "vacancy",
+    "pluralName": "vacancies",
+    "displayName": "Vacancy"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "vacancy": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.vacancy"
+    }
+  }
+}
