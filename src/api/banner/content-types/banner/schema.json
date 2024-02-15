@@ -40,6 +40,12 @@
     "name": {
       "type": "string",
       "private": true
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.link",
+      "max": 2
     }
   }
 }

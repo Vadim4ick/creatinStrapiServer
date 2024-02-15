@@ -58,6 +58,11 @@
       "type": "component",
       "repeatable": false,
       "component": "components.slider-case"
+    },
+    "contentBanner": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::banner.banner"
     }
   }
 }
