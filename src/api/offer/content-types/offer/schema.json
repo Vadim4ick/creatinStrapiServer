@@ -12,34 +12,17 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "offer": {
-      "type": "component",
-      "repeatable": false,
-      "component": "elements.offer"
-    },
     "name": {
       "type": "string",
       "required": true
-    },
-    "description": {
-      "type": "richtext",
-      "required": true
-    },
-    "oldPrice": {
-      "type": "integer",
-      "required": true
-    },
-    "sale": {
-      "type": "integer",
-      "required": true,
-      "max": 99
     },
     "headingBanner": {
       "type": "media",
       "multiple": false,
       "required": false,
       "allowedTypes": [
-        "images"
+        "images",
+        "videos"
       ]
     },
     "banner": {
@@ -60,6 +43,12 @@
       "type": "component",
       "repeatable": false,
       "component": "components.footer"
+    },
+    "description": {
+      "type": "text"
+    },
+    "highlighted": {
+      "type": "string"
     }
   }
 }
