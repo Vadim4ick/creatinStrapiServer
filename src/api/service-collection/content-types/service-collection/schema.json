@@ -30,15 +30,6 @@
       "repeatable": true,
       "component": "components.text-block"
     },
-    "banner": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "videos"
-      ]
-    },
     "sliderCase": {
       "type": "component",
       "repeatable": false,

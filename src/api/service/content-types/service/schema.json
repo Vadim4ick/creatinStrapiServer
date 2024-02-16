@@ -31,14 +31,6 @@
       "repeatable": true,
       "component": "components.text-block"
     },
-    "banner": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ]
-    },
     "description": {
       "type": "richtext",
       "required": true

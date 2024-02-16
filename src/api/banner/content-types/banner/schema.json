@@ -41,17 +41,16 @@
       "type": "string",
       "private": true
     },
-    "buttons": {
-      "type": "component",
-      "repeatable": true,
-      "component": "ui.link",
-      "max": 2
-    },
     "widthTitle": {
       "type": "integer"
     },
     "widthDescription": {
       "type": "integer"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.link"
     }
   }
 }
