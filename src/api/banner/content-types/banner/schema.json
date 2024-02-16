@@ -46,6 +46,12 @@
       "repeatable": true,
       "component": "ui.link",
       "max": 2
+    },
+    "widthTitle": {
+      "type": "integer"
+    },
+    "widthDescription": {
+      "type": "integer"
     }
   }
 }
