@@ -25,15 +25,6 @@
         "videos"
       ]
     },
-    "banner": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "videos"
-      ]
-    },
     "includes_blocks": {
       "type": "relation",
       "relation": "oneToMany",
@@ -62,6 +53,16 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::banner.banner"
+    },
+    "textBlocks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.text-block"
+    },
+    "sliderCase": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.slider-case"
     }
   }
 }
