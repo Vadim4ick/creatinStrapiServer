@@ -51,6 +51,21 @@
       "type": "component",
       "repeatable": false,
       "component": "ui.link"
+    },
+    "offerBannerDesktop": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    },
+    "offerBannerMobile": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
