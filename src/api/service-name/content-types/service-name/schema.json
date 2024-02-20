@@ -31,10 +31,11 @@
       "type": "uid",
       "targetField": "name"
     },
-    "offer": {
+    "offers": {
       "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::offer.offer"
+      "relation": "oneToMany",
+      "target": "api::offer.offer",
+      "mappedBy": "service_name"
     }
   }
 }

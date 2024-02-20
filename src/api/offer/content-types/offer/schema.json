@@ -63,6 +63,12 @@
       "type": "component",
       "repeatable": false,
       "component": "components.slider-case"
+    },
+    "service_name": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::service-name.service-name",
+      "inversedBy": "offers"
     }
   }
 }
