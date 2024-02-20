@@ -30,6 +30,11 @@
     "nameID": {
       "type": "uid",
       "targetField": "name"
+    },
+    "offer": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::offer.offer"
     }
   }
 }
