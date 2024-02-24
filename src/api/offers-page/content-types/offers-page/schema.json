@@ -28,14 +28,6 @@
       "repeatable": true,
       "component": "components.offer-component"
     },
-    "img": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ]
-    },
     "banner": {
       "type": "media",
       "multiple": false,
