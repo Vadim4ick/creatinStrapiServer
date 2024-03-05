@@ -1,7 +1,8 @@
 {
   "collectionName": "components_sections_about_sections",
   "info": {
-    "displayName": "AboutSection"
+    "displayName": "AboutSection",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -17,8 +18,7 @@
       "required": true
     },
     "aboutDescription": {
-      "type": "text",
-      "required": true
+      "type": "richtext"
     }
   }
 }
