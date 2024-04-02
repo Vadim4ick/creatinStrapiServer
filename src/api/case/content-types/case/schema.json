@@ -54,7 +54,8 @@
         "image-blocks.grid-image",
         "image-blocks.one-image",
         "image-blocks.text-block",
-        "image-blocks.double-text-blocks"
+        "image-blocks.double-text-blocks",
+        "image-blocks.video"
       ],
       "required": true
     },

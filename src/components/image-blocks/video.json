@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_image_blocks_videos",
+  "info": {
+    "displayName": "Video"
+  },
+  "options": {},
+  "attributes": {
+    "video": {
+      "allowedTypes": [
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    }
+  }
+}
