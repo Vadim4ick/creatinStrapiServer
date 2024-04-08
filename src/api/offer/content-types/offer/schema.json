@@ -74,6 +74,11 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.seo"
+    },
+    "Title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.section-titles"
     }
   }
 }

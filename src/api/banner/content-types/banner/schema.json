@@ -67,6 +67,9 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "widthDescriptionBannerOfferPage": {
+      "type": "integer"
     }
   }
 }
