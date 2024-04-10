@@ -1,13 +1,18 @@
 {
   "collectionName": "components_elements_titles",
   "info": {
-    "displayName": "Title"
+    "displayName": "Title",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string",
       "required": true
+    },
+    "activeTitle": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
