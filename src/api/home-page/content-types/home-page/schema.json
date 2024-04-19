@@ -23,12 +23,9 @@
       "component": "shared.seo"
     },
     "banner": {
-      "type": "dynamiczone",
-      "components": [
-        "home-banner.banner-content",
-        "home-banner.bottom-block",
-        "home-banner.metrics"
-      ]
+      "type": "component",
+      "repeatable": true,
+      "component": "components.home-banner"
     }
   }
 }

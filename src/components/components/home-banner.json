@@ -6,41 +6,20 @@
   },
   "options": {},
   "attributes": {
-    "IntroCard": {
+    "bannerContent": {
       "type": "component",
       "repeatable": true,
-      "component": "elements.intro-card",
-      "max": 3
+      "component": "home-banner.banner-content"
     },
-    "banner": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
+    "bannerMetrics": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home-banner.metrics"
     },
-    "bannerMobile": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
-    },
-    "bannerMasks": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": true
+    "bannerBottomBlocks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home-banner.bottom-block"
     }
   }
 }
