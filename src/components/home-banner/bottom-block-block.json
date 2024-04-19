@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_home_banner_bottom_block_blocks",
+  "info": {
+    "displayName": "bottomBlockBlock"
+  },
+  "options": {},
+  "attributes": {
+    "total": {
+      "type": "integer",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "term": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

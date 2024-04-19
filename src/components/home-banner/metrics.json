@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_home_banner_metrics",
+  "info": {
+    "displayName": "metrics"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
