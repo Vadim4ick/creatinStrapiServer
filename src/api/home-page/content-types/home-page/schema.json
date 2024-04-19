@@ -24,7 +24,7 @@
     },
     "banner": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "components.home-banner"
     }
   }
