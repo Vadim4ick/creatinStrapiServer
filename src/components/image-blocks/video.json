@@ -1,17 +1,23 @@
 {
   "collectionName": "components_image_blocks_videos",
   "info": {
-    "displayName": "Video"
+    "displayName": "Video",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "video": {
-      "allowedTypes": [
-        "videos"
-      ],
       "type": "media",
       "multiple": false,
-      "required": false
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "idBlock": {
+      "type": "string",
+      "required": true,
+      "default": "videoBlock"
     }
   }
 }
