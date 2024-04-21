@@ -70,6 +70,12 @@
     },
     "widthDescriptionBannerOfferPage": {
       "type": "integer"
+    },
+    "widthBlur": {
+      "type": "integer"
+    },
+    "widthBlurMobile": {
+      "type": "integer"
     }
   }
 }
