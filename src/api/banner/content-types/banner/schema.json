@@ -76,6 +76,9 @@
     },
     "widthBlurMobile": {
       "type": "integer"
+    },
+    "descriptionOffers": {
+      "type": "text"
     }
   }
 }
