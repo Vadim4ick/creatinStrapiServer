@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "search_links",
+  "info": {
+    "singularName": "search-link",
+    "pluralName": "search-links",
+    "displayName": "SearchLink"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "keywords": {
+      "type": "json",
+      "required": true
+    }
+  }
+}
