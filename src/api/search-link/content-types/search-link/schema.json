@@ -4,7 +4,8 @@
   "info": {
     "singularName": "search-link",
     "pluralName": "search-links",
-    "displayName": "SearchLink"
+    "displayName": "SearchLink",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,7 +13,8 @@
   "pluginOptions": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "url": {
       "type": "string",
@@ -21,6 +23,10 @@
     "keywords": {
       "type": "json",
       "required": true
+    },
+    "isPopular": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
