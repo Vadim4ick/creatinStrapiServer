@@ -22,18 +22,13 @@
       "repeatable": false,
       "component": "shared.seo"
     },
-    "banner": {
-      "type": "component",
-      "repeatable": false,
-      "component": "components.home-banner"
-    },
     "bannerMedia": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": true,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }
