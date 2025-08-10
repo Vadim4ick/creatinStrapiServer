@@ -43,11 +43,6 @@
       "relation": "oneToMany",
       "target": "api::includes-block.includes-block"
     },
-    "footer": {
-      "type": "component",
-      "repeatable": false,
-      "component": "components.footer"
-    },
     "totalHours": {
       "type": "integer"
     },
