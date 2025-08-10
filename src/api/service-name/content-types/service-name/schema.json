@@ -31,6 +31,13 @@
       "relation": "oneToMany",
       "target": "api::offer.offer",
       "mappedBy": "service_name"
+    },
+    "image_service": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
