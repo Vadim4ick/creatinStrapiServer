@@ -51,11 +51,6 @@
       "type": "string",
       "required": true
     },
-    "Footer": {
-      "type": "component",
-      "repeatable": false,
-      "component": "components.footer"
-    },
     "contentBanner": {
       "type": "relation",
       "relation": "oneToOne",

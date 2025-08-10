@@ -36,11 +36,6 @@
         "images"
       ]
     },
-    "Footer": {
-      "type": "component",
-      "repeatable": false,
-      "component": "components.footer"
-    },
     "case_names": {
       "type": "relation",
       "relation": "manyToMany",

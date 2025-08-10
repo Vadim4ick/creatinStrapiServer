@@ -20,11 +20,6 @@
       "type": "richtext",
       "required": true
     },
-    "footer": {
-      "type": "component",
-      "repeatable": false,
-      "component": "components.footer"
-    },
     "complexBlocks": {
       "type": "component",
       "repeatable": true,
