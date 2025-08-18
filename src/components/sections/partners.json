@@ -10,18 +10,6 @@
       "type": "string",
       "required": true
     },
-    "description": {
-      "type": "text",
-      "required": true
-    },
-    "icons": {
-      "type": "media",
-      "multiple": true,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ]
-    },
     "our_partners": {
       "type": "relation",
       "relation": "oneToMany",
