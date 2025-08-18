@@ -21,6 +21,11 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "our_partners": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::our-partner.our-partner"
     }
   }
 }
