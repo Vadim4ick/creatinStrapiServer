@@ -18,19 +18,6 @@
     "title": {
       "type": "richtext",
       "required": true
-    },
-    "desctopMaxWidth": {
-      "type": "integer"
-    },
-    "selectType": {
-      "type": "customField",
-      "options": [
-        "textBlock",
-        "titleBlock",
-        "infoBlock"
-      ],
-      "customField": "plugin::multi-select.multi-select",
-      "required": true
     }
   }
 }
