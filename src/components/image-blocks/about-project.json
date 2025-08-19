@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_image_blocks_about_projects",
+  "info": {
+    "displayName": "about-project",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "idBlock": {
+      "type": "string",
+      "required": true,
+      "default": "aboutProject"
+    },
+    "client": {
+      "type": "string",
+      "required": true
+    },
+    "industry": {
+      "type": "string"
+    },
+    "deadline": {
+      "type": "integer"
+    },
+    "tasks": {
+      "type": "text",
+      "required": true,
+      "regex": "^([\\wА-Яа-яЁё\\s\\-%]+)(,\\s*[\\wА-Яа-яЁё\\s\\-%]+)*$"
+    }
+  }
+}

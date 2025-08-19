@@ -50,7 +50,8 @@
         "image-blocks.one-image",
         "image-blocks.text-block",
         "image-blocks.double-text-blocks",
-        "image-blocks.video"
+        "image-blocks.video",
+        "image-blocks.about-project"
       ],
       "required": true
     },
