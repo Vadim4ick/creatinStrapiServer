@@ -71,6 +71,11 @@
       ],
       "required": true,
       "customField": "plugin::multi-select.multi-select"
+    },
+    "cases": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::case.case"
     }
   }
 }
