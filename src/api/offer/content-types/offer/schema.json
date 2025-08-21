@@ -65,11 +65,6 @@
       "target": "api::service-name.service-name",
       "inversedBy": "offers"
     },
-    "seo": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.seo"
-    },
     "Title": {
       "type": "component",
       "repeatable": false,
