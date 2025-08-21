@@ -4,7 +4,7 @@
   "info": {
     "singularName": "search-link",
     "pluralName": "search-links",
-    "displayName": "SearchLink",
+    "displayName": "Запросы/Популярные запросы",
     "description": ""
   },
   "options": {

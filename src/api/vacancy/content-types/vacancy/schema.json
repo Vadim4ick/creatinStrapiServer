@@ -4,7 +4,8 @@
   "info": {
     "singularName": "vacancy",
     "pluralName": "vacancies",
-    "displayName": "Vacancy"
+    "displayName": "Вакансии",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true

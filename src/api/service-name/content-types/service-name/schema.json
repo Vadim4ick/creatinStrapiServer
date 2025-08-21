@@ -4,7 +4,7 @@
   "info": {
     "singularName": "service-name",
     "pluralName": "service-names",
-    "displayName": "ServiceName",
+    "displayName": "Названия услуг",
     "description": ""
   },
   "options": {
@@ -33,11 +33,12 @@
       "mappedBy": "service_name"
     },
     "image_service": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }
