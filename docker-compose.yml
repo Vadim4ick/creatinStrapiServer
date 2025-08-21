@@ -1,34 +1,34 @@
 version: "3.8"
 
 services:
-  cms:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    ports:
-      - "1337:1337"
-    volumes:
-      - ./strapi-app:/opt/app
-    environment:
-      APP_KEYS: ${APP_KEYS}
-      API_TOKEN_SALT: ${API_TOKEN_SALT}
-      ADMIN_JWT_SECRET: ${ADMIN_JWT_SECRET}
-      JWT_SECRET: ${JWT_SECRET}
-      CLOUDINARY_NAME: ${CLOUDINARY_NAME}
-      CLOUDINARY_KEY: ${CLOUDINARY_KEY}
-      CLOUDINARY_SECRET: ${CLOUDINARY_SECRET}
-      DATABASE_HOST: db
-      DATABASE_PASSWORD: ${DATABASE_PASSWORD}
-      DATABASE_USERNAME: ${DATABASE_USERNAME}
-      DATABASE_NAME: ${DATABASE_NAME}
-      DATABASE_CLIENT: postgres
-      DATABASE_SSL: ${DATABASE_SSL}
-      DATABASE_PORT: 5432
-      NODE_ENV: ${NODE_ENV}
-    depends_on:
-      - db
-    networks:
-      - strapi
+  # cms:
+  #   build:
+  #     context: .
+  #     dockerfile: Dockerfile
+  #   ports:
+  #     - "1337:1337"
+  #   volumes:
+  #     - ./strapi-app:/opt/app
+  #   environment:
+  #     APP_KEYS: ${APP_KEYS}
+  #     API_TOKEN_SALT: ${API_TOKEN_SALT}
+  #     ADMIN_JWT_SECRET: ${ADMIN_JWT_SECRET}
+  #     JWT_SECRET: ${JWT_SECRET}
+  #     CLOUDINARY_NAME: ${CLOUDINARY_NAME}
+  #     CLOUDINARY_KEY: ${CLOUDINARY_KEY}
+  #     CLOUDINARY_SECRET: ${CLOUDINARY_SECRET}
+  #     DATABASE_HOST: db
+  #     DATABASE_PASSWORD: ${DATABASE_PASSWORD}
+  #     DATABASE_USERNAME: ${DATABASE_USERNAME}
+  #     DATABASE_NAME: ${DATABASE_NAME}
+  #     DATABASE_CLIENT: postgres
+  #     DATABASE_SSL: ${DATABASE_SSL}
+  #     DATABASE_PORT: 5432
+  #     NODE_ENV: ${NODE_ENV}
+  #   depends_on:
+  #     - db
+  #   networks:
+  #     - strapi
   db:
     image: postgres:14.1-alpine
     restart: always
