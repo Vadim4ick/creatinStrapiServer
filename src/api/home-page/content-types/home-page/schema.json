@@ -30,6 +30,11 @@
         "images",
         "videos"
       ]
+    },
+    "banera_dlya_glavnoj_straniczies": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::home-baner.home-baner"
     }
   }
 }
