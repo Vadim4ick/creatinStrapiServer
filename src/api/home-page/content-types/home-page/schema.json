@@ -22,15 +22,6 @@
       "repeatable": false,
       "component": "shared.seo"
     },
-    "bannerMedia": {
-      "type": "media",
-      "multiple": true,
-      "required": true,
-      "allowedTypes": [
-        "images",
-        "videos"
-      ]
-    },
     "banera_dlya_glavnoj_straniczies": {
       "type": "relation",
       "relation": "oneToMany",
