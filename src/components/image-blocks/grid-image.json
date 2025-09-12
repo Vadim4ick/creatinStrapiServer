@@ -43,6 +43,27 @@
       ],
       "required": true,
       "customField": "plugin::multi-select.multi-select"
+    },
+    "mobileImageOne": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "mobileImageTwo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "mobileImageThree": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

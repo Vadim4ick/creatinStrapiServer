@@ -26,6 +26,20 @@
       "type": "string",
       "required": true,
       "default": "doubleImage"
+    },
+    "mobileImageOne": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "mobileImageTwo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

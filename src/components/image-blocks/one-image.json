@@ -18,6 +18,13 @@
       "type": "string",
       "default": "oneImage",
       "required": true
+    },
+    "mobileImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
