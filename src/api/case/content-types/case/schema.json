@@ -71,6 +71,20 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::case.case"
+    },
+    "imageMainMobile": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "imageBigMobile": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
