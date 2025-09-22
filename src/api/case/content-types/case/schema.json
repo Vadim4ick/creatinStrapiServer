@@ -73,18 +73,12 @@
       "target": "api::case.case"
     },
     "imageMainMobile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
-    },
-    "imageBigMobile": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }
