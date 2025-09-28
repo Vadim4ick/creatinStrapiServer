@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_blocks_service_color_images",
+  "info": {
+    "displayName": "serviceColorImage"
+  },
+  "options": {},
+  "attributes": {
+    "color": {
+      "type": "string",
+      "default": "#FFEDC9"
+    },
+    "imageService": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

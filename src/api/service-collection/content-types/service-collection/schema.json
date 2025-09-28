@@ -55,6 +55,11 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::banner.banner"
+    },
+    "serviceColorImageComponent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.service-color-image"
     }
   }
 }
