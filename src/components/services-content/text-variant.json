@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_services_content_text_variants",
+  "info": {
+    "displayName": "textVariant"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

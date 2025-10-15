@@ -60,6 +60,13 @@
       "type": "component",
       "repeatable": false,
       "component": "blocks.service-color-image"
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "services-content.single-image-block",
+        "services-content.text-variant"
+      ]
     }
   }
 }
