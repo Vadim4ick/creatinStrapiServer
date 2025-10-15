@@ -20,6 +20,12 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "idBlock": {
+      "type": "string",
+      "required": true,
+      "default": "imageBlock",
+      "unique": false
     }
   }
 }

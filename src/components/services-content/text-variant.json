@@ -1,7 +1,8 @@
 {
   "collectionName": "components_services_content_text_variants",
   "info": {
-    "displayName": "textVariant"
+    "displayName": "textVariant",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,6 +12,11 @@
     },
     "description": {
       "type": "richtext"
+    },
+    "idBlock": {
+      "type": "string",
+      "default": "textVariant",
+      "required": true
     }
   }
 }
