@@ -41,12 +41,6 @@
       "type": "string",
       "private": true
     },
-    "widthTitle": {
-      "type": "integer"
-    },
-    "widthDescription": {
-      "type": "integer"
-    },
     "button": {
       "type": "component",
       "repeatable": false,
@@ -68,17 +62,18 @@
         "images"
       ]
     },
-    "widthDescriptionBannerOfferPage": {
-      "type": "integer"
+    "bgColorServiceBanner": {
+      "type": "string"
     },
-    "widthBlur": {
-      "type": "integer"
+    "colorImageEffectServiceBanner": {
+      "type": "string"
     },
-    "widthBlurMobile": {
-      "type": "integer"
-    },
-    "descriptionOffers": {
-      "type": "text"
+    "imgServiceBanner": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
