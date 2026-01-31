@@ -33,6 +33,12 @@
     "title": {
       "type": "string",
       "required": true
+    },
+    "keywords": {
+      "type": "json"
+    },
+    "link": {
+      "type": "string"
     }
   }
 }
