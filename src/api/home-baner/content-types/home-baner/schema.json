@@ -35,7 +35,8 @@
       "required": true
     },
     "keywords": {
-      "type": "json"
+      "type": "json",
+      "required": false
     },
     "link": {
       "type": "string"
