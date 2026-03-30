@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "partneries",
+  "info": {
+    "singularName": "partnery",
+    "pluralName": "partneries",
+    "displayName": "Партнеры",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titleBlock": {
+      "type": "richtext"
+    }
+  }
+}
